@@ -28,6 +28,23 @@ h6 {
   line-height: 1.2em;
 }
 /* Mobile Styles */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+}
+.grid a {
+  grid-column: 1/9;
+}
+
+.grid h5,
+.grid p {
+  display: none;
+}
+.grid a:hover img {
+  transition: 500ms;
+  opacity: 0;
+}
 .carousel-item {
   min-height: 520px;
 }
