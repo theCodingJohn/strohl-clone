@@ -32,10 +32,6 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-  body {
-    font-size: 25px;
-  }
-
   .grid a:nth-of-type(1) {
     grid-row: 1;
     grid-column: 1/10;
