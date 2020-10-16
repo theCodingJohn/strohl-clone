@@ -3,3 +3,21 @@
   font-size: 0.75em;
   line-height: 1.25em;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #footer {
+    font-size: 20px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #footer h2 {
+    font-size: 2.2em;
+  }
+
+  #footer h2 + div p {
+    font-size: 0.9em;
+  }
+}
