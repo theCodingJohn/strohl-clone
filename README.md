@@ -1,5 +1,5 @@
 # Cloned website of Strohl
-Fully responsive 5 clone pages of [strohlsf.com](http://strohlsf.com/).
+Cloned homepage and projects pages of [strohlsf.com](http://strohlsf.com/).
 
 ![strohl hero section](strohl.png)
 
